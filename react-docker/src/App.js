@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h1>
-          + Hello from Docker image running on K3s :)
+          Hello from Docker image running on K3s :)
         </h1>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
