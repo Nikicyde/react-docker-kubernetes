@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h1>
-          Hello from Docker image running on K3s :)
+          Hello after Jenkins build
         </h1>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
