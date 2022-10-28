@@ -10,6 +10,6 @@ spec:
   - port: 80
     targetPort: 80
     protocol: TCP
-    nodePort: 31002
+    nodePort: 31000
   selector:
     app: react-docker
