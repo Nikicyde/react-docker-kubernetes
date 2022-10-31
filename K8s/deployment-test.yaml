@@ -1,0 +1,20 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: react-docker-test
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: react-docker-test
+  template:
+    metadata:
+      labels:
+        app: react-docker-test
+    spec:
+      containers:
+      - name: react-docker-test
+        image: nikicyde/react-docker-test
+        imagePullPolicy: "Always"
+        ports:
+        - containerPort: 80
